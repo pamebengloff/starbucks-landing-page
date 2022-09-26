@@ -1,20 +1,25 @@
 
-
 .dashboard-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.description-container{
     display: flex;
     flex-direction: column;
     justify-content:center;
     height: 70vh;
     align-items: left;
-  /*  border: 1px red solid; */
+ /*   border: 1px blue solid;*/
 }
 
 h1{ 
-    width: 50%;
     font-size: 5rem;
     font-weight: 500;
     margin:0;
     line-height: 110px;
+ /*   border:1px solid red;*/
 }
 p{
     width: 35%;

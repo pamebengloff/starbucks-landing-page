@@ -29,17 +29,15 @@ export function Options() {
 
     return (
         <>
-        <div className="circleBeverage-container">
+     <div className="circleBeverage-container">
             <div className={circleColor}></div>
             <img  className="beverage-image" src={image} alt="" />
-        </div>
-
         <nav className="buttons-container">
-         <button className="btn-t" onClick={() => onImageDisplay(Img1)}> <img className="img-Img" src={Thumb1} alt="" /> </button>
-         <button className="btn-t" onClick={() => onImageDisplay(Img2)}> <img className="img-Img" src={Thumb2} alt="" /> </button>
-         <button className="btn-t" onClick={() => onImageDisplay(Img3)}> <img className="img-Img" src={Thumb3} alt="" /> </button>
+            <button className="btn-t" onClick={() => onImageDisplay(Img1)}> <img className="img-Img" src={Thumb1} alt="" /> </button>
+            <button className="btn-t" onClick={() => onImageDisplay(Img2)}> <img className="img-Img" src={Thumb2} alt="" /> </button>
+            <button className="btn-t" onClick={() => onImageDisplay(Img3)}> <img className="img-Img" src={Thumb3} alt="" /> </button>
         </nav>
-
+    </div>
         </>
     );
 }

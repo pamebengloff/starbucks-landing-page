@@ -20,12 +20,18 @@ export function Options() {
     const [image, setImage] = useState(images[0].img);
     const [circleColor, setcirclecolor] = useState(images[0].backgroundColor);
 
-    const onImageDisplay = (Img) => {
+    const onImageDisplay = (img) => {
         //si es este boton, ponme esta imagen y color
-        if( Img === Img1 ) {setImage(Img1); setcirclecolor(images[0].backgroundColor);}
-        if( Img === Img2 ) {setImage(Img2); setcirclecolor(images[1].backgroundColor);}
-        if( Img === Img3 ) {setImage(Img3); setcirclecolor(images[2].backgroundColor);}
+     /*   if( img === Img1 ) {setImage(Img1); setcirclecolor(images[0].backgroundColor);}
+        if( img === Img2 ) {setImage(Img2); setcirclecolor(images[1].backgroundColor);}
+        if( img === Img3 ) {setImage(Img3); setcirclecolor(images[2].backgroundColor);}*/
 
+      const path = img;
+     
+      const obj = images.find( (op) => (op.img === path)  )
+        //console.log(obj.img)
+        setImage(obj.img);
+        setcirclecolor(obj.backgroundColor);
     }
 
     return (

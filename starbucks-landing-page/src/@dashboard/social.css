@@ -1,0 +1,13 @@
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-container li {
+    filter: invert(1);
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+
+

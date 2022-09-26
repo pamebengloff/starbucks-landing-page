@@ -1,17 +1,21 @@
 
-
-.circleBeverage-container{
-  /*  border:1px red solid;*/
+.circleOptions-container{
+/*    border:1px green solid;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: end;
-    align-items:end ;
-    width: 10%;
+    align-items:center;
+    width: 50%;
  }
+.circleSocial-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .buttons-container{
     display: flex;
-  /*  border:1px red solid;*/
+   /* border:1px red solid;*/
     flex-direction: row;
     align-items: flex-end;
     width: 90%;
@@ -20,11 +24,15 @@
     justify-content: center;
 }
 
+.beverage-image{
+    width: 400px;
+ /*   border:1px red solid;*/
+}
+
 .btn-t{
     border:none;
     background-color: transparent;
     padding:0;
-   
     margin:0 20px 0 20px;
 }
 .btn-t:hover{
@@ -33,9 +41,6 @@
     transition-timing-function: ease-in;
 }
 
-.beverage-image{
-    width: 400px;
-}
 .circle-green{
     height: 100%;
     width: 100%;  

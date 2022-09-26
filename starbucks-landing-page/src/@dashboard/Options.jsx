@@ -7,6 +7,7 @@ import Thumb2 from "../@images/thumb2.png"
 import Thumb3 from "../@images/thumb3.png"
 
 import {useState} from "react"
+import { Social } from "./Social"
 
 export function Options() {
 
@@ -29,15 +30,21 @@ export function Options() {
 
     return (
         <>
-     <div className="circleBeverage-container">
+     <div className="circleOptions-container">
+        <div className="circleSocial-container">
             <div className={circleColor}></div>
             <img  className="beverage-image" src={image} alt="" />
+        <Social/> 
+        </div>
         <nav className="buttons-container">
             <button className="btn-t" onClick={() => onImageDisplay(Img1)}> <img className="img-Img" src={Thumb1} alt="" /> </button>
             <button className="btn-t" onClick={() => onImageDisplay(Img2)}> <img className="img-Img" src={Thumb2} alt="" /> </button>
             <button className="btn-t" onClick={() => onImageDisplay(Img3)}> <img className="img-Img" src={Thumb3} alt="" /> </button>
         </nav>
+    
+    
     </div>
+    
         </>
     );
 }

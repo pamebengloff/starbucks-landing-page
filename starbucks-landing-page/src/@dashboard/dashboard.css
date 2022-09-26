@@ -1,0 +1,41 @@
+
+
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 70vh;
+    align-items: left;
+  /*  border: 1px red solid; */
+}
+
+h1{ 
+    width: 50%;
+    font-size: 5rem;
+    font-weight: 500;
+    margin:0;
+    line-height: 110px;
+}
+p{
+    width: 35%;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    color:#00704A;
+    font-weight:900;
+}
+
+.btn-learn{
+    width:fit-content;
+    margin-top: 20px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color:#00704A;
+    color:white;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}

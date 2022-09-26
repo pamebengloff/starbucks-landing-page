@@ -1,0 +1,60 @@
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:30px;
+}
+
+.btn-t{
+    border:none;
+    background-color: transparent;
+    padding:0;
+   
+    margin:0 20px 0 20px;
+}
+.btn-t:hover{
+    position: relative;
+    bottom:20px;
+    transition-timing-function: ease-in;
+}
+
+.beverage-image{
+    width: 400px;
+}
+
+.circleBeverage-container{
+   border:1px red solid;
+}
+
+.circle-green{
+    height: 100%;
+    width: 100%;  
+    background-color: #00704A;
+    position: absolute;
+    top:0;
+    left: 0;
+    clip-path: circle(800px at right 100%);
+    z-index: -1; 
+    
+  }
+.circle-pink{
+    height: 100%;
+    width: 100%;  
+    background-color: #eb7495;
+    position: absolute;
+    top:0;
+    left: 0;
+    clip-path: circle(800px at right 100%);
+    z-index: -1; 
+}
+.circle-darkpink{
+    height: 100%;
+    width: 100%;  
+    background-color: #d752b1;
+    position: absolute;
+    top:0;
+    left: 0;
+    clip-path: circle(800px at right 100%);
+    z-index: -1;
+}

@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: column;
     justify-content:center;
-    height: 70vh;
     align-items: left;
- /*   border: 1px blue solid;*/
+    width: 100%;
+    border: 1px blue solid;
 }
 
 h1{ 
@@ -43,4 +43,18 @@ span{
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 20px;
+}
+
+@media (max-width:900px) {
+    
+    .description-container{
+        max-width: 100%;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    p{
+        font-size:100%;
+    }
+
 }
